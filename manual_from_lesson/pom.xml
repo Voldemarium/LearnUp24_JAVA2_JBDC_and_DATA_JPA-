@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>ru.LearnUp</groupId>
-        <artifactId>LearnUp24_DATA_JPA</artifactId>
+        <groupId>ru.learnUp</groupId>
+        <artifactId>LearnUp24_JAVA2_DATA_JPA</artifactId>
         <version>1</version>
     </parent>
 

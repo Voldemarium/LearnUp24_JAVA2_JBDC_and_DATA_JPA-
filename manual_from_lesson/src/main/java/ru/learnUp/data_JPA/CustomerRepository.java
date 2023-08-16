@@ -1,4 +1,4 @@
-package ru.learnUp.Data_JPA;
+package ru.learnUp.data_JPA;
 
 import org.springframework.data.repository.CrudRepository;
 import ru.learnUp.Animal;

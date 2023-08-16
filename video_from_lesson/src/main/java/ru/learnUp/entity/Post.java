@@ -1,5 +1,6 @@
 package ru.learnUp.entity;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.Fetch;
@@ -12,6 +13,7 @@ import java.util.List;
 @Table
 @Getter
 @Setter
+
 public class Post{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

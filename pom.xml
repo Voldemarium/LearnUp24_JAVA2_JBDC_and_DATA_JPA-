@@ -8,11 +8,11 @@
 		<version>2.7.12</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ru.LearnUp</groupId>
-	<artifactId>LearnUp24_DATA_JPA</artifactId>
+	<groupId>ru.learnUp</groupId>
+	<artifactId>LearnUp24_JAVA2_DATA_JPA</artifactId>
 	<version>1</version>
 	<packaging>pom</packaging>
-	<name>LearnUp24_DATA_JPA</name>
+<!--	<name>LearnUp24_DATA_JPA</name>-->
 	<description>Demo project for Spring Boot</description>
 
 	<modules>

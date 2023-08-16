@@ -84,6 +84,11 @@ public class NamedParametersJDBCTemplatePostDao implements PostDao {
     }
 
     @Override
+    public List<Post> findByText(String text) {
+        return null;
+    }
+
+    @Override
     public void save(Post post) {
 
     }
