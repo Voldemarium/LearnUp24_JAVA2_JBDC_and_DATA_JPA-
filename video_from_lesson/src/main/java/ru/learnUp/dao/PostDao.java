@@ -1,6 +1,6 @@
-package ru.LearnUp.LearnUp24_DATA_JPA.dao;
+package ru.learnUp.dao;
 
-import ru.LearnUp.LearnUp24_DATA_JPA.entity.Post;
+import ru.learnUp.entity.Post;
 
 import java.util.List;
 

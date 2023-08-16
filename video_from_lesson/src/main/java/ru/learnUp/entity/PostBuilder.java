@@ -1,4 +1,4 @@
-package ru.LearnUp.LearnUp24_DATA_JPA.entity;
+package ru.learnUp.entity;
 
 import java.util.List;
 

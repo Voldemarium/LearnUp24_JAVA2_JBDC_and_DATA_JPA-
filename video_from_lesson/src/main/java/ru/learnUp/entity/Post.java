@@ -1,4 +1,4 @@
-package ru.LearnUp.LearnUp24_DATA_JPA.entity;
+package ru.learnUp.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,15 +6,13 @@ import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.List;
 
 @Entity
 @Table
 @Getter
 @Setter
-
-public class Post implements Serializable {
+public class Post{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -44,5 +42,4 @@ public class Post implements Serializable {
                 ", comments=" + comments +
                 '}';
     }
-
 }

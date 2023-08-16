@@ -1,17 +1,15 @@
-package ru.LearnUp.LearnUp24_DATA_JPA.dao;
+package ru.learnUp.dao;
 
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
-import ru.LearnUp.LearnUp24_DATA_JPA.entity.Comment;
-import ru.LearnUp.LearnUp24_DATA_JPA.entity.Post;
+import ru.learnUp.entity.Comment;
+import ru.learnUp.entity.Post;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
-
 @Repository
 public class NamedParametersJDBCTemplatePostDao implements PostDao {
 

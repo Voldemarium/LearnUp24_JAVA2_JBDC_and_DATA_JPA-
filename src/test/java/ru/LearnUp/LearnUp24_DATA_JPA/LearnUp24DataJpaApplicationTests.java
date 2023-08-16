@@ -1,4 +1,4 @@
-package ru.LearnUp.LearnUp24_DATA_JPA;
+package ru.learnUp.LearnUp24_DATA_JPA;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
